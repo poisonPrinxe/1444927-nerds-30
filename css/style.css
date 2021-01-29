@@ -1,2 +1,18 @@
-head {
+/*Variables*/
+
+:root {
+  --grey-base: #eeeeee;
+  --red-rest: #fb565a;
+  --red-hover: #e74246;
+  --red-tap: #d7373b;
+  --green-rest: #00ca74;
+  --green-hover: #00bc6c;
+  --green-tap: #00aa62;
+  --yellow-rest: #efc84a;
+  --yellow-hover: #eab534;
+  --yellow-tap: #e5a722;
+  --black-text-tap: rgba(0, 0, 0, 0.3);
+  --white-text-tap: rgba(255, 255, 255, 0.3);
+  --grey-hover: #dfdfdf;
+  --grey-tap: #d5d5d5;
 }
