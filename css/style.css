@@ -16,3 +16,9 @@
   --grey-hover: #dfdfdf;
   --grey-tap: #d5d5d5;
 }
+
+body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+}
