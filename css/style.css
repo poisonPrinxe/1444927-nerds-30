@@ -70,6 +70,6 @@ h4,
   line-height: 55px;
 }
 
-li {
+.inline-li {
   display: inline;
 }
