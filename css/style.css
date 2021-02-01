@@ -51,3 +51,7 @@ img {
   background-color: var(--yellow-rest);
   border-radius: 3px;
 }
+
+header {
+  background-color: var(--grey-base);
+}
