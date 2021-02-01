@@ -56,3 +56,11 @@ header,
 .slider-section {
   background-color: var(--grey-base);
 }
+
+nav,
+button,
+h3,
+h4,
+.stats {
+  text-transform: uppercase;
+}
