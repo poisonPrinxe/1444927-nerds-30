@@ -78,3 +78,23 @@ sixteen-eighteen {
   font-size: 16px;
   line-height: 18px;
 }
+
+.product-title {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.fourty-five {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.contact-title {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.friends {
+  font-size: 36px;
+  line-height: 36px;
+}
