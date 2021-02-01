@@ -33,3 +33,21 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.red-button {
+  height: 50px;
+  background-color: var(--red-rest);
+  border-radius: 3px;
+}
+
+.green-button {
+  height: 50px;
+  background-color: var(--green-rest);
+  border-radius: 3px;
+}
+
+.yellow-button {
+  height: 50px;
+  background-color: var(--yellow-rest);
+  border-radius: 3px;
+}
