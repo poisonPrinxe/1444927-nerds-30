@@ -64,3 +64,8 @@ h4,
 .stats {
   text-transform: uppercase;
 }
+
+.catchphrase {
+  font-size: 55px;
+  line-height: 55px;
+}
