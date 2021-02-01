@@ -52,6 +52,7 @@ img {
   border-radius: 3px;
 }
 
-header {
+header,
+.slider-section {
   background-color: var(--grey-base);
 }
