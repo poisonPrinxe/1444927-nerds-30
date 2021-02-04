@@ -108,3 +108,8 @@ h4,
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.introduction {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
