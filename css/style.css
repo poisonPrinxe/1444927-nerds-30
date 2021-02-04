@@ -98,3 +98,13 @@ h4,
   font-size: 36px;
   line-height: 36px;
 }
+
+.slide {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
