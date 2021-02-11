@@ -53,8 +53,10 @@ img {
 }
 
 header,
+.page-title,
 .slider-section {
   background-color: var(--grey-base);
+  width: 100%;
 }
 
 nav,
