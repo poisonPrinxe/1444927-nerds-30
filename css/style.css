@@ -120,3 +120,11 @@ h4,
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.slider-section {
+  height: 425px;
+}
+
+.page-title {
+  height: 235px;
+}
