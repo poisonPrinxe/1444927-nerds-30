@@ -158,7 +158,8 @@ h4,
 h3,
 h4,
 .stats,
-.friends {
+.friends,
+.sort {
   font-weight: 700;
 }
 
@@ -167,4 +168,8 @@ button,
 .catchphrase,
 .about-us {
   font-weight: 500;
+}
+
+button .normal-button {
+  font-weight: 400;
 }
