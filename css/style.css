@@ -124,10 +124,3 @@ h4,
 .page-title {
   height: 235px;
 }
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto.woff");
-  font-style: normal;
-  font-weight: normal;
-}
