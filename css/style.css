@@ -127,7 +127,8 @@ h4,
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/roboto.woff") format("woff");
+  src: url("../fonts/roboto.woff") format("woff"),
+       url("../fonts/roboto.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -135,15 +136,8 @@ h4,
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/roboto.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/robotomedium.woff") format("woff");
+  src: url("../fonts/robotomedium.woff") format("woff"),
+       url("../fonts/robotomedium.woff2") format("woff2");
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -151,23 +145,8 @@ h4,
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/robotomedium.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/robotobold.woff") format("woff");
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/robotobold.woff2") format("woff2");
+  src: url("../fonts/robotobold.woff") format("woff"),
+       url("../fonts/robotobold.woff2") format("woff2");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
