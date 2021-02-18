@@ -153,3 +153,11 @@ h4,
 .page-title {
   height: 235px;
 }
+
+
+h3,
+h4,
+.stats,
+.friends {
+  font-weight: 700;
+}
