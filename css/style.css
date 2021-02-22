@@ -178,6 +178,7 @@ h4,
   grid-row: 1 / -1;
 }
 
+.sort,
 .paginator {
   grid-column: 2 / -1;
 }
