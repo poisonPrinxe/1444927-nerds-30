@@ -169,9 +169,17 @@ h4,
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.product-examples {
+.catalog-full {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sorting-options {
+  grid-row: 1 / -1;
+}
+
+.paginator {
+  grid-column: 2 / -1;
 }
 
 /* Font weights */
