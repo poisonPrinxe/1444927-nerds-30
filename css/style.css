@@ -46,6 +46,8 @@
   --grey-tap: #d5d5d5;
 }
 
+/* General */
+
 body {
   min-width: 1440px;
   margin: 0;
@@ -62,6 +64,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Buttons */
 
 .red-button {
   height: 50px;
@@ -81,6 +85,8 @@ img {
   border-radius: 3px;
 }
 
+/* Misc */
+
 header,
 .page-title,
 .slider-section {
@@ -96,6 +102,16 @@ h4,
 .paginator {
   text-transform: uppercase;
 }
+
+.slider-section {
+  height: 425px;
+}
+
+.page-title {
+  height: 235px;
+}
+
+/* Font sizes */
 
 .catchphrase {
   font-size: 55px;
@@ -132,6 +148,8 @@ h4,
   grid-template-columns: 1fr 2fr;
 }
 
+/* Grids */
+
 .product-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -147,14 +165,7 @@ h4,
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.slider-section {
-  height: 425px;
-}
-
-.page-title {
-  height: 235px;
-}
-
+/* Font weights */
 
 h3,
 h4,
