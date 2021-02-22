@@ -169,6 +169,11 @@ h4,
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.product-examples {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 /* Font weights */
 
 h3,
