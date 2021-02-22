@@ -19,41 +19,43 @@
     </header>
     <main>
       <div class="page-title"><h1>Магазин готовых шаблонов</h1></div>
-      <div class="sorting-options">
-        <h3>стоимость:</h3>
-        <input type="range" min="0" max="20000">
-<!--         я вижу, что там сложнее, но все найденные мной варианты используют js -->
-        <h3>сетка:</h3>
-        <input type="radio" name="grid" checked> Адаптивная
-        <input type="radio" name="grid"> Фиксированная
-        <input type="radio" name="grid"> Резиновая
-        <h3>особенности:</h3>
-        <input type="checkbox" name="special" checked> Слайдер
-        <input type="checkbox" name="special"> Блок преимуществ
-        <input type="checkbox" name="special" checked> Новости
-        <input type="checkbox" name="special"> Галерея
-        <input type="checkbox" name="special"> Корзина
-        <input type="submit" value="показать">
-      </div>
-      <section>
-        <p class="sort">сортировать</p>
-        <button type="button" class="normal-button">по цене</button>
-        <button type="button" class="normal-button">по типу</button>
-        <button type="button" class="normal-button">по названию</button>
-        <ul class="product-examples">
-          <li><img src="img/img-sedona.jpg" width="360" height="578" alt="sedona"></li>
-          <li><img src="img/img-pink.jpg" width="360" height="578" alt="pink"></li>
-          <li><img src="img/img-borodinski.jpg" width="360" height="578" alt="borodinski"></li>
-          <li><img src="img/img-mishka.jpg" width="360" height="578" alt="mishka"></li>
-          <li><img src="img/img-aplus.jpg" width="360" height="578" alt="aplus"></li>
-          <li><img src="img/img-kvast.jpg" width="360" height="578" alt="kvast"></li>
-        </ul>
-        <div class="paginator">
-          <a href="#">1</a>
-          <a href="#">2</a>
-          <a href="#">3</a>
-          <a href="#">следующая</a>
+      <section class="catalog-full">
+        <div class="sorting-options">
+          <h3>стоимость:</h3>
+          <input type="range" min="0" max="20000">
+  <!--         я вижу, что там сложнее, но все найденные мной варианты используют js -->
+          <h3>сетка:</h3>
+          <input type="radio" name="grid" checked> Адаптивная
+          <input type="radio" name="grid"> Фиксированная
+          <input type="radio" name="grid"> Резиновая
+          <h3>особенности:</h3>
+          <input type="checkbox" name="special" checked> Слайдер
+          <input type="checkbox" name="special"> Блок преимуществ
+          <input type="checkbox" name="special" checked> Новости
+          <input type="checkbox" name="special"> Галерея
+          <input type="checkbox" name="special"> Корзина
+          <input type="submit" value="показать">
         </div>
+        <section class="catalog-products">
+          <p class="sort">сортировать</p>
+          <button type="button" class="normal-button">по цене</button>
+          <button type="button" class="normal-button">по типу</button>
+          <button type="button" class="normal-button">по названию</button>
+          <ul class="product-examples">
+            <li><img src="img/img-sedona.jpg" width="360" height="578" alt="sedona"></li>
+            <li><img src="img/img-pink.jpg" width="360" height="578" alt="pink"></li>
+            <li><img src="img/img-borodinski.jpg" width="360" height="578" alt="borodinski"></li>
+            <li><img src="img/img-mishka.jpg" width="360" height="578" alt="mishka"></li>
+            <li><img src="img/img-aplus.jpg" width="360" height="578" alt="aplus"></li>
+            <li><img src="img/img-kvast.jpg" width="360" height="578" alt="kvast"></li>
+          </ul>
+          <div class="paginator">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">следующая</a>
+          </div>
+        </section>
       </section>
       <section>
         <img src="img/map1.jpg" width="1440" height="416" alt="карта"><img src="img/map-marker-1.png" width="231" height="190" alt="map marker">
