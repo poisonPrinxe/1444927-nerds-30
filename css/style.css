@@ -48,6 +48,11 @@
 
 /* General */
 
+header {
+  padding-top: 49px;
+  padding-left: 140px;
+}
+
 body {
   min-width: 1440px;
   margin: 0;
