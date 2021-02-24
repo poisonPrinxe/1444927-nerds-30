@@ -49,8 +49,7 @@
 /* General */
 
 header {
-  padding-top: 49px;
-  padding-left: 140px;
+  padding: 49px 140px 0;
 }
 
 body {
