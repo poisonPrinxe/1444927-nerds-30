@@ -187,6 +187,12 @@ h4,
   grid-column: 2 / -1;
 }
 
+.inline-list {
+  width: 437px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 /* Font weights */
 
 h3,
