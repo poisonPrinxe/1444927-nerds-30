@@ -73,6 +73,11 @@ ul {
   list-style-type: none;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+
 /* Buttons */
 
 .red-button {
