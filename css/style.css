@@ -156,7 +156,7 @@ h4,
   grid-template-columns: 1fr 2fr;
 }
 
-/* Grids */
+/* Display */
 
 .product-list {
   display: grid;
@@ -189,8 +189,8 @@ h4,
 
 .inline-list {
   width: 437px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Font weights */
