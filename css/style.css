@@ -48,9 +48,9 @@
 
 /* General */
 
-/*.header {
-  padding: 49px 140px 0;
-}*/
+.header {
+  padding-top: 49px;
+}
 
 body {
   min-width: 1440px;
