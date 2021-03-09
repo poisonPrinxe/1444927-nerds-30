@@ -116,10 +116,6 @@ h4,
   text-transform: uppercase;
 }
 
-.slider-section {
-  height: 425px;
-}
-
 .page-title {
   height: 235px;
 }
@@ -156,12 +152,12 @@ h4,
   line-height: 36px;
 }
 
+/* Display */
+
 .slide {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-
-/* Display */
 
 .product-list {
   display: grid;
@@ -190,6 +186,11 @@ h4,
 .sort,
 .paginator {
   grid-column: 2 / -1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .inline-list {
