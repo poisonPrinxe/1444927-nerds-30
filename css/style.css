@@ -79,6 +79,10 @@ ul {
   width: 1160px;
 }
 
+.contacts-where {
+  background-image: url("img/map1.jpg")
+}
+
 /* Buttons */
 
 .red-button {
