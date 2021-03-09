@@ -121,6 +121,11 @@ h4,
   height: 235px;
 }
 
+.social > li {
+  width: 81px;
+  height: 81px;
+}
+
 /* Font sizes */
 
 .catchphrase {
@@ -198,6 +203,11 @@ h4,
   width: 437px;
   display: flex;
   justify-content: space-between;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 /* Font weights */
