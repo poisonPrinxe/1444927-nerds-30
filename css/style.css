@@ -217,6 +217,12 @@ h4,
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.social {
+  display: grid;
+  grid-template-columns: 81px 81px 81px;
+  border-spacing: 9px;
+}
+
 /* Font weights */
 
 h3,
