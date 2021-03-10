@@ -132,10 +132,13 @@ h4,
 }
 
 .contacts-write {
-  width: 319px;
-  height: 308px;
+
+  width: 219px;
+  height: 216px;
   padding: 49px 50px 47px;
+
   background-color: #ffffff;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
