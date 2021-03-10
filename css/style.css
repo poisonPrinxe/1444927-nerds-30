@@ -126,7 +126,6 @@ h4,
 }
 
 .social > li {
-  width: 81px;
   height: 81px;
   background-color: var(--grey-base);
   boredr-radius: 50%;
