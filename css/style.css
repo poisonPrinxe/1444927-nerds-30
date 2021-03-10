@@ -188,7 +188,8 @@ h4,
 
 .catalog-full {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 8fr;
+  border-spacing: 140px 48px;
 }
 
 .sorting-options {
@@ -198,6 +199,12 @@ h4,
 .sort,
 .paginator {
   grid-column: 2 / -1;
+}
+
+.product-examples {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-spacing: 40px 31px;
 }
 
 .header-display {
