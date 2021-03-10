@@ -131,6 +131,11 @@ h4,
   border-radius: 50%;
 }
 
+.contacts-write {
+  padding: 49px 50px 47px;
+  background-color: #ffffff;
+}
+
 /* Font sizes */
 
 .catchphrase {
