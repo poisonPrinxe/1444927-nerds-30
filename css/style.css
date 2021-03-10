@@ -188,7 +188,7 @@ h4,
 .catalog-full {
   display: grid;
   grid-template-columns: 3fr 8fr;
-  border-spacing: 140px 48px;
+  gap: 140px 48px;
 }
 
 .sorting-options {
@@ -206,7 +206,7 @@ h4,
 .product-examples {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-spacing: 40px 31px;
+  gap: 40px 31px;
 }
 
 .header-display {
@@ -232,7 +232,7 @@ h4,
 .social {
   display: grid;
   grid-template-columns: 81px 81px 81px;
-  border-spacing: 9px;
+  gap: 9px;
 }
 
 /* Font weights */
