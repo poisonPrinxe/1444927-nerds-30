@@ -195,6 +195,7 @@ h4,
   grid-row: 1 / -1;
   display: grid;
   grid-template-columns: 1fr;
+  height: 702px;
 }
 
 .sort,
