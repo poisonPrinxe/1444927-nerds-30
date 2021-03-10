@@ -132,8 +132,13 @@ h4,
 }
 
 .contacts-write {
+  width: 319px;
+  height: 308px;
   padding: 49px 50px 47px;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Font sizes */
