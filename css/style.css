@@ -261,6 +261,12 @@ h4,
   gap: 9px;
 }
 
+.social > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Font weights */
 
 h3,
