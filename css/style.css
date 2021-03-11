@@ -83,6 +83,11 @@ ul {
   background-image: url("../img/map1.jpg")
 }
 
+h1,
+h4 {
+  margin: 0;
+}
+
 /* Buttons */
 
 .red-button {
