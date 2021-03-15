@@ -22,22 +22,50 @@
     <main>
       <div class="page-title container"><h1>Магазин готовых шаблонов</h1></div>
       <section class="catalog-full container">
-        <div class="sorting-options">
-          <h3>стоимость:</h3>
-          <input type="range" min="0" max="20000">
-  <!--         я вижу, что там сложнее, но все найденные мной варианты используют js -->
-          <h3>сетка:</h3>
-          <input type="radio" name="grid" checked> Адаптивная
-          <input type="radio" name="grid"> Фиксированная
-          <input type="radio" name="grid"> Резиновая
-          <h3>особенности:</h3>
-          <input type="checkbox" name="special" checked> Слайдер
-          <input type="checkbox" name="special"> Блок преимуществ
-          <input type="checkbox" name="special" checked> Новости
-          <input type="checkbox" name="special"> Галерея
-          <input type="checkbox" name="special"> Корзина
+        <form class="sorting-options">
+<!--          <fieldset class="filter-item">
+            <legend>стоимость:</legend>
+            <div class="range-filter">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar" style="
+                  width: 30%;
+                  margin-left: 20%
+                "></div>
+                </div>
+                <div class="toggle toggle-min" tabindex="0" style="
+                left: 20%
+              "></div>
+                <div class="toggle toggle-max" tabindex="0" style="
+                left: 50%
+              "></div>
+              </div>
+              <div class="price-controls">
+                <label class="min-price">
+                от <input type="number" name="min-price" value="0">
+                </label>
+                <label class="max-price">
+                до <input type="number" name="max-price" value="15000">
+                </label>
+              </div>
+            </div>
+          </fieldset>    -->
+          <fieldset>
+            <legend>сетка:</legend>
+            <input type="radio" name="grid" checked> Адаптивная
+            <input type="radio" name="grid"> Фиксированная
+            <input type="radio" name="grid"> Резиновая
+          </fieldset>
+          <fieldset>
+            <legend>особенности:</legend>
+            <input type="checkbox" name="special" checked> Слайдер
+            <input type="checkbox" name="special"> Блок преимуществ
+            <input type="checkbox" name="special" checked> Новости
+            <input type="checkbox" name="special"> Галерея
+            <input type="checkbox" name="special"> Корзина
+          </fieldset>
           <input type="submit" value="показать">
-        </div>
+        </form>
         <section class="catalog-products">
           <p class="sort">сортировать</p>
           <button type="button" class="normal-button">по цене</button>
