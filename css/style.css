@@ -129,6 +129,10 @@ button,
   border-bottom: 9px solid black;
 }
 
+.normal-button:not(.selected) {
+  opacity: 30%;
+}
+
 /* Misc */
 
 header,
