@@ -161,7 +161,7 @@ legend,
 }
 
 .product-list-parent::after,
-.introduction::after,
+.partners-parent::before,
 .partners-parent::after {
   content: "";
   position: absolute;
