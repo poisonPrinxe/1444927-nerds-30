@@ -178,6 +178,14 @@ legend,
   background-color: var(--grey-base);
 }
 
+.what-can-make > li::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: var(--red-rest);
+}
+
 /* Font sizes */
 
 .catchphrase {
