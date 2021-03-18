@@ -90,6 +90,15 @@ h4 {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Buttons */
 
 .red-button {
@@ -113,6 +122,10 @@ h4 {
 button,
 .no-border {
   border-width: 0;
+}
+
+.normal-button {
+  background-color: white;
 }
 
 .down::before {
@@ -190,7 +203,7 @@ legend,
   position: absolute;
   width: 1158px;
   height: 2px;
-  color: var(--grey-base);
+  background-color: var(--grey-base);
 }
 
 .partners > li:not(:last-child)::after {
@@ -215,6 +228,17 @@ legend,
   width: 73px;
   height: 2px;
   background-color: var(--red-rest);
+}
+
+.paginator > a {
+  background-color: var(--grey-base);
+  padding: 20px;
+}
+
+.paginator > a.current {
+  border: 3px solid var(--grey-base);
+  padding: 17px;
+  background-color: white;
 }
 
 /* Font sizes */
@@ -356,18 +380,15 @@ button .normal-button {
   padding: 0;
   border: none;
 }
-
 .range-filter {
   width: 260px;
   margin-top: 49px;
 }
-
 .filter-item legend {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
 }
-
 .range-controls {
   position: relative;
   height: 41px;
@@ -378,18 +399,15 @@ button .normal-button {
   background-color: #f1f1f1;
   border-radius: 5px;
 }
-
 .range-controls .scale {
   height: 2px;
   background: #d7dcde;
 }
-
 .range-controls .bar {
   width: 70%;
   height: 2px;
   background: #00ca74;
 }
-
 .range-controls .toggle {
   position: absolute;
   top: 31px;
@@ -403,26 +421,21 @@ button .normal-button {
   box-shadow: 0 2px 1px 0 #cfcfcf;
   cursor: pointer;
 }
-
 .range-controls .toggle-min {
   left: 18px;
 }
-
 .range-controls .toggle-max {
   left: 160px;
 }
-
 .price-controls {
   display: flex;
   justify-content: space-between;
 }
-
 .price-controls label {
   text-transform: uppercase;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
 }
-
 .price-controls input {
   width: 60px;
   padding: 10px;
