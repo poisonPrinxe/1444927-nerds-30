@@ -170,6 +170,14 @@ legend,
   color: var(--grey-base);
 }
 
+.partners > li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 52px;
+  background-color: var(--grey-base);
+}
+
 /* Font sizes */
 
 .catchphrase {
