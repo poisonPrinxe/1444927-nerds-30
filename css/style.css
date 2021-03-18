@@ -191,6 +191,14 @@ legend,
   background-color: var(--red-rest);
 }
 
+.link-selected::after {
+  content: "";
+  position: absolute;
+  width: 73px;
+  height: 2px;
+  background-color: var(--red-rest);
+}
+
 /* Font sizes */
 
 .catchphrase {
