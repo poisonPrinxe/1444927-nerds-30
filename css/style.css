@@ -160,6 +160,16 @@ legend,
   margin-right: 45px;
 }
 
+.product-list-parent::after,
+.introdution::after,
+.partners-parent::after {
+  content: "";
+  position: absolute;
+  width: 1158px;
+  height: 2px;
+  color: var(--grey-base);
+}
+
 /* Font sizes */
 
 .catchphrase {
