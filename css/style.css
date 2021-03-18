@@ -115,6 +115,20 @@ button,
   border-width: 0;
 }
 
+.down::before {
+  content: "";
+  position: absolute;
+  border: 5px solid transparent;
+  border-top: 9px solid black;
+}
+
+.up::after {
+  content: "";
+  position: absolute;
+  border: 5px solid transparent;
+  border-bottom: 9px solid black;
+}
+
 /* Misc */
 
 header,
