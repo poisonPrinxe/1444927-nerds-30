@@ -110,6 +110,11 @@ h4 {
   border-radius: 3px;
 }
 
+button,
+.no-border {
+  border-width: 0;
+}
+
 /* Misc */
 
 header,
