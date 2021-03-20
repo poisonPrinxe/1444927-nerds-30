@@ -161,18 +161,18 @@ a {
 
 /* Misc */
 
-header,
+.header,
 .page-title,
 .slider-section {
   background-color: var(--grey-base);
   width: 100%;
 }
 
-nav,
-button,
+.nav,
+.no-border,
 h3,
 h4,
-legend,
+.filter-item legend,
 .stats,
 .paginator {
   text-transform: uppercase;
