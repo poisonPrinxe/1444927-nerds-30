@@ -365,7 +365,7 @@ button,
   font-weight: 500;
 }
 
-button .normal-button {
+.normal-button {
   font-weight: 400;
 }
 
@@ -376,15 +376,18 @@ button .normal-button {
   padding: 0;
   border: none;
 }
+
 .range-filter {
   width: 260px;
   margin-top: 49px;
 }
+
 .filter-item legend {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
 }
+
 .range-controls {
   position: relative;
   height: 41px;
@@ -395,15 +398,18 @@ button .normal-button {
   background-color: #f1f1f1;
   border-radius: 5px;
 }
+
 .range-controls .scale {
   height: 2px;
   background: #d7dcde;
 }
+
 .range-controls .bar {
   width: 70%;
   height: 2px;
   background: #00ca74;
 }
+
 .range-controls .toggle {
   position: absolute;
   top: 31px;
@@ -417,21 +423,26 @@ button .normal-button {
   box-shadow: 0 2px 1px 0 #cfcfcf;
   cursor: pointer;
 }
+
 .range-controls .toggle-min {
   left: 18px;
 }
+
 .range-controls .toggle-max {
   left: 160px;
 }
+
 .price-controls {
   display: flex;
   justify-content: space-between;
 }
+
 .price-controls label {
   text-transform: uppercase;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
 }
+
 .price-controls input {
   width: 60px;
   padding: 10px;
