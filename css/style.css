@@ -83,14 +83,11 @@ img {
   background-image: url("../img/map1.jpg")
 }
 
-h1,
-h2,
-h3,
-h4 {
+.headline {
   margin: 0;
 }
 
-h1 {
+.main-headline {
   text-align: center;
 }
 
