@@ -80,7 +80,8 @@ img {
 }
 
 .contacts-where {
-  background-image: url("../img/map1.jpg")
+  margin-top: 30px;
+  background-image: url("../img/map1.jpg");
 }
 
 .headline {
