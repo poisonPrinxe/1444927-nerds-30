@@ -100,7 +100,7 @@ a {
 }
 
 .cart::before {
-  content: "";
+  content: url("../img/cart.svg");
 }
 
 /* Buttons */
