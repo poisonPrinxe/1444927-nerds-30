@@ -170,8 +170,7 @@ a {
 
 .nav,
 .no-border,
-h3,
-h4,
+.low-headline,
 .filter-item legend,
 .stats,
 .paginator {
@@ -282,6 +281,27 @@ h4,
   line-height: 36px;
 }
 
+/* Font weights */
+
+.low-headline,
+.stats,
+.friends,
+.sort {
+  font-weight: 700;
+}
+
+.nav,
+.no-border,
+.catchphrase,
+.about-us,
+.paginator {
+  font-weight: 500;
+}
+
+.normal-button {
+  font-weight: 400;
+}
+
 /* Display */
 
 .slide {
@@ -358,28 +378,6 @@ h4,
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-/* Font weights */
-
-h3,
-h4,
-.stats,
-.friends,
-.sort {
-  font-weight: 700;
-}
-
-.nav,
-.no-border,
-.catchphrase,
-.about-us,
-.paginator {
-  font-weight: 500;
-}
-
-.normal-button {
-  font-weight: 400;
 }
 
 /* Double slider */
