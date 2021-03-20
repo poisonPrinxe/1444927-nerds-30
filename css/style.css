@@ -165,10 +165,6 @@ legend,
   text-transform: uppercase;
 }
 
-.page-title {
-  height: 235px;
-}
-
 .social > li {
   height: 81px;
   background-color: var(--grey-base);
