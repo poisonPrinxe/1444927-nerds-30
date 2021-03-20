@@ -99,6 +99,10 @@ a {
   color: black;
 }
 
+.cart::before {
+  content: "";
+}
+
 /* Buttons */
 
 .red-button {
