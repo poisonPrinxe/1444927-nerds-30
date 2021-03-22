@@ -23,7 +23,7 @@
       <div class="page-title container"><h1 class="headline main-headline">Магазин готовых шаблонов</h1></div>
       <section class="catalog-full container">
         <form class="sorting-options">
-          <fieldset class="filter-item">
+          <fieldset class="filter-item price-slider">
             <legend>стоимость:</legend>
             <div class="range-filter">
               <div class="range-controls">
@@ -50,31 +50,33 @@
               </div>
             </div>
           </fieldset>
-          <fieldset class="filter-item">
+          <fieldset class="filter-item grid-filter">
             <legend>сетка:</legend>
-            <input type="radio" name="grid" checked> Адаптивная
-            <input type="radio" name="grid"> Фиксированная
-            <input type="radio" name="grid"> Резиновая
+            <span><input type="radio" name="grid" checked> Адаптивная</span>
+            <span><input type="radio" name="grid"> Фиксированная</span>
+            <span><input type="radio" name="grid"> Резиновая</span>
           </fieldset>
-          <fieldset class="filter-item">
+          <fieldset class="filter-item special-filter">
             <legend>особенности:</legend>
-            <input type="checkbox" name="special" checked> Слайдер
-            <input type="checkbox" name="special"> Блок преимуществ
-            <input type="checkbox" name="special" checked> Новости
-            <input type="checkbox" name="special"> Галерея
-            <input type="checkbox" name="special"> Корзина
+            <span><input type="checkbox" name="special" checked> Слайдер</span>
+            <span><input type="checkbox" name="special"> Блок преимуществ</span>
+            <span><input type="checkbox" name="special" checked> Новости</span>
+            <span><input type="checkbox" name="special"> Галерея</span>
+            <span><input type="checkbox" name="special"> Корзина</span>
           </fieldset>
-          <input type="submit" value="показать" class="no-border">
+          <input type="submit" value="показать" class="no-border submit">
         </form>
         <section class="catalog-products">
-          <p class="sort">сортировать</p>
-          <button type="button" class="normal-button selected no-border">по цене</button>
-          <button type="button" class="normal-button no-border">по типу</button>
-          <button type="button" class="normal-button no-border">по названию</button>
-          <button type="button" class="normal-button selected down no-border"></button>
-          <button type="button" class="normal-button up no-border"></button>
+          <div class="sort">
+            <p class="sort-name">сортировать:</p>
+            <button type="button" class="normal-button selected no-border">по цене</button>
+            <button type="button" class="normal-button no-border">по типу</button>
+            <button type="button" class="normal-button no-border">по названию</button>
+            <button type="button" class="normal-button selected down no-border"></button>
+            <button type="button" class="normal-button up no-border"></button>
+          </div>
           <ul class="product-examples list">
-            <li><img src="img/img-sedona.jpg" width="360" height="578" alt="sedona"></li>
+            <li class="selected"><img src="img/img-sedona.jpg" width="360" height="578" alt="sedona"></li>
             <li><img src="img/img-pink.jpg" width="360" height="578" alt="pink"></li>
             <li><img src="img/img-barbershop.jpg" width="360" height="578" alt="borodinski"></li>
             <li><img src="img/img-mishka.jpg" width="360" height="578" alt="mishka"></li>
@@ -85,7 +87,7 @@
             <a class="current">1</a>
             <a href="#">2</a>
             <a href="#">3</a>
-            <a href="#">следующая</a>
+            <a href="#" class="next-page">следующая</a>
           </div>
         </section>
       </section>
