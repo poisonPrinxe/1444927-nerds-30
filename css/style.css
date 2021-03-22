@@ -98,7 +98,7 @@ a {
 }
 
 .cart::before {
-  content: url("../img/cart.svg");
+  content: url("../img/cart-icon.svg");
 }
 
 .vk::before {
