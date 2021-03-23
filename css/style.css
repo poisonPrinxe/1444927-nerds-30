@@ -115,6 +115,59 @@ a {
   content: url("../img/fb-icon.svg");
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.grid-filter label::before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 4px solid rgba(77, 77, 77, 0.4);
+  transform: translateX(-35px);
+}
+
+.grid-filter label.checked::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: rgba(77, 77, 77, 0.4);
+  transform: translateX(-118px) translateY(8px);
+}
+
+.special-filter label:not(.checked)::before {
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  border-radius: 3px;
+  border: 2px solid rgba(77, 77, 77, 0.4);
+  transform: translateX(-35px) translateY(1px);
+}
+
+.special-filter label.checked::before {
+  content: url("../img/checked-box.svg");
+  opacity: 0.4;
+  position: absolute;
+  transform: translateX(-35px) translateY(1px);
+}
+
+.special-filter label.checked::after {
+  content: url("../img/checkmark.svg");
+  opacity: 0.4;
+  position: absolute;
+  transform: translateX(-95px) translateY(3px);
+  box-shadow: 0 0 0 0 #f00;
+}
+
 /* Buttons */
 
 .red-button {
@@ -746,9 +799,10 @@ a {
   margin-top: 58px;
 }
 
-.filter-item span {
+.grid-filter label,
+.special-filter label {
   margin-top: 16px;
-  margin-left: 19px;
+  margin-left: 35px;
 }
 
 .grid-filter {
