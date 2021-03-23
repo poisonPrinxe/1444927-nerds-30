@@ -160,12 +160,8 @@ a {
   transform: translateX(-35px) translateY(1px);
 }
 
-.special-filter input:checked + label::after {
-  content: url("../img/checkmark.svg");
-  opacity: 0.4;
-  position: absolute;
-  transform: translateX(-95px) translateY(3px);
-  box-shadow: 0 0 0 0 #f00;
+.partners img {
+  opacity: 0.2;
 }
 
 /* Buttons */
@@ -845,4 +841,48 @@ a {
 .paginator {
   margin-top: 71px;
   margin-bottom: -73px;
+}
+
+/* Hover */
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+.nav a:hover {
+  color: var(--red-rest);
+}
+
+.cart:hover {
+  color: var(--red-rest);
+}
+
+.red-button:hover {
+  background-color: var(--red-hover);
+}
+
+.green-button:hover {
+  background-color: var(--green-hover);
+}
+
+.yellow-button:hover {
+  background-color: var(--yellow-hover);
+}
+
+.partners img:hover {
+  opacity: 1;
+}
+
+.social > li:hover {
+  background-color: var(--red-hover);
+}
+
+.submit:hover,
+.paginator a:not(.current):hover {
+  background-color: var(--grey-hover);
+}
+
+.grid-filter label::before:hover,
+.special-filter label::before:hover {
+  opacity: 1;
 }
