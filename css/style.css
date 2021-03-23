@@ -228,7 +228,7 @@ a {
 }
 
 .normal-button:not(.selected) {
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 .slider-buttons button {
