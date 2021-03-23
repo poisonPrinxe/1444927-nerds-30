@@ -133,7 +133,7 @@ a {
   transform: translateX(-35px);
 }
 
-.grid-filter label.checked::after {
+.grid-filter input:checked + label::after {
   content: "";
   position: absolute;
   width: 9px;
@@ -143,7 +143,7 @@ a {
   transform: translateX(-118px) translateY(8px);
 }
 
-.special-filter label:not(.checked)::before {
+.special-filter input:not(:checked) + label::before {
   content: "";
   position: absolute;
   width: 19px;
@@ -153,14 +153,14 @@ a {
   transform: translateX(-35px) translateY(1px);
 }
 
-.special-filter label.checked::before {
+.special-filter input:checked + label::before {
   content: url("../img/checked-box.svg");
   opacity: 0.4;
   position: absolute;
   transform: translateX(-35px) translateY(1px);
 }
 
-.special-filter label.checked::after {
+.special-filter input:checked + label::after {
   content: url("../img/checkmark.svg");
   opacity: 0.4;
   position: absolute;
@@ -799,8 +799,8 @@ a {
   margin-top: 58px;
 }
 
-.grid-filter label,
-.special-filter label {
+.grid-filter span,
+.special-filter span {
   margin-top: 16px;
   margin-left: 35px;
 }
