@@ -243,6 +243,11 @@ a {
   height: 50px;
 }
 
+.order {
+  width: 200px;
+  transform: translateY(1px);
+}
+
 /* Misc */
 
 .header,
@@ -365,8 +370,19 @@ a {
   box-shadow: 0 -40px 0 rgba(77, 77, 77, 0.1);
 }
 
-.product-examples > li:hover {
-  box-shadow: 0 -40px 0 rgba(77, 77, 77, 1), 0 7px 10px rgba(77, 77, 77, 0.3);
+.product-description {
+  height: 231px;
+  width: 360px;
+  background-color: var(--grey-base);
+  transform: translateY(-238px);
+  text-align: center;
+  padding-top: 11px;
+  display: none;
+}
+
+.description {
+  margin-top: -5px;
+  color: #666;
 }
 
 /* Font sizes */
@@ -377,7 +393,8 @@ a {
   line-height: 55px;
 }
 
-.sixteen-eighteen {
+.sixteen-eighteen,
+.description {
   font-size: 16px;
   line-height: 18px;
 }
@@ -875,6 +892,14 @@ a {
 
 .social > li:hover {
   background-color: var(--red-hover);
+}
+
+.product-examples > li:hover {
+  box-shadow: 0 -40px 0 rgba(77, 77, 77, 1), 0 7px 10px rgba(77, 77, 77, 0.3);
+}
+
+.product-examples > li:hover .product-description {
+  display: block;
 }
 
 .submit:hover,
