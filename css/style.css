@@ -307,6 +307,15 @@ a {
   justify-content: space-between;
 }
 
+.popup {
+  z-index: 2;
+  width: 960px;
+  height: 590px;
+  background-color: white;
+  box-shadow: 0 0 20px black;
+  margin-top: -200px;
+}
+
 .page-title {
   padding-top: 78px;
 }
@@ -672,6 +681,19 @@ a {
   font-size: inherit;
 }
 
+.bar {
+  width: 45%
+  margin-left: 5%;
+}
+
+.toggle-min {
+  left: 5%;
+}
+
+.toggle-max {
+  left: 50%;
+}
+
 /* Pixel perfect */
 
 .nav {
@@ -908,6 +930,10 @@ a {
 
 .social > li:hover {
   background-color: var(--red-hover);
+}
+
+.sort > button:not(.selected):hover {
+  opacity: 0.6;
 }
 
 .product-examples > li:hover {
