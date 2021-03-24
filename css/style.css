@@ -114,6 +114,12 @@ a {
   transform: translateX(-41px) translateY(1px);
 }
 
+.logo-colours {
+  width: 360px;
+  height: 208px;
+  content: url("../img/nerds-illustration-1.png");
+}
+
 .vk::before {
   content: url("../img/vk-icon.svg");
 }
@@ -290,6 +296,18 @@ a {
 
 .slider-section {
   height: 424px;
+}
+
+.products-one::before {
+  content: url("../img/illustration-1-1.jpg");
+}
+
+.products-two::before {
+  content: url("../img/illustration-2-1.jpg");
+}
+
+.products-three::before {
+  content: url("../img/illustration-3-1.jpg");
 }
 
 .nav,
@@ -831,7 +849,7 @@ a {
 }
 
 .stats {
-  margin-top: 30px;
+  margin-top: 37px;
   margin-left: 44px;
 }
 
