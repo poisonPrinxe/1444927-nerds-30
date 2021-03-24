@@ -62,11 +62,11 @@
         <section class="catalog-products">
           <div class="sort">
             <p class="sort-name">сортировать:</p>
-            <button type="button" class="normal-button selected no-border">по цене</button>
-            <button type="button" class="normal-button no-border">по типу</button>
-            <button type="button" class="normal-button no-border">по названию</button>
-            <button type="button" class="normal-button selected down no-border"></button>
-            <button type="button" class="normal-button up no-border"></button>
+            <a href="#" class="normal-button selected no-border">по цене</a>
+            <a href="#" class="normal-button no-border">по типу</a>
+            <a href="#" class="normal-button no-border">по названию</a>
+            <a href="#" class="normal-button selected down no-border"></a>
+            <a href="#" class="normal-button up no-border"></a>
           </div>
           <ul class="product-examples list">
             <li>
@@ -135,7 +135,7 @@
             <button type="button" class="red-button no-border write-us-button">напишите нам</button>
           </div>
         </div>
-        <img class="img-map" src="img/map1.jpg" width="1440" height="416" alt="Карта">
+        <div class="map-parent"><img class="img-map" src="img/map1.jpg" width="1440" height="416" alt="Карта"></div>
         <div class="marker"></div>
       </section>
     </main>
@@ -150,5 +150,18 @@
         <p class="friend-discount">Скидка 10% для друзей из социальных сетей.</p>
       </div>
     </footer>
+    <div class="popup visually-hidden">
+      <h2 class="headline fourty-five">Напишите нам</h2>
+      <button type="button" class="close-popup no-border normal-button"><img src="img/cross.svg"></button>
+      <form action="https://echo.htmlacademy.ru/" class="popup-form">
+        <label class="popup-label label-name sixteen-eighteen">Ваше имя:</label>
+        <input type="text" placeholder="Имя Фамилия">
+        <label class="popup-label label-email sixteen-eighteen">Ваш email:</label>
+        <input type="text" placeholder="email@example.com">
+        <label class="popup-label label-letter sixteen-eighteen">Текст письма:</label>
+        <textarea placeholder="В свободной форме" class="textarea"></textarea>
+        <input type="submit" value="отправить" class="no-border red-button send-letter">
+      </form>
+    </div>
   </body>
 </html>
