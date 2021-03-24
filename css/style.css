@@ -1050,9 +1050,3 @@ a {
 .textarea:hover {
   border: 2px solid #b4b9bb;
 }
-
-/* Debug */
-
-/*.introduction {
-  border-right: 5px solid var(--red-rest);
-}*/
