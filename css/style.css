@@ -88,6 +88,11 @@ img {
   padding: 54px 0;
 }
 
+.contacts-write p,
+.contacts-write a {
+  color: #666;
+}
+
 .headline {
   margin: 0;
 }
@@ -304,7 +309,7 @@ a {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .popup {
@@ -312,8 +317,10 @@ a {
   width: 960px;
   height: 590px;
   background-color: white;
-  box-shadow: 0 0 20px black;
-  margin-top: -200px;
+  box-shadow: 0 5px 20px black;
+  margin-top: -705px;
+  margin-left: 50%;
+  transform: translateX(-480px);
 }
 
 .page-title {
@@ -823,6 +830,18 @@ a {
 
 .contacts-where {
   margin-top: 123px;
+}
+
+.address {
+  margin-top: 23px;
+}
+
+.phone-number {
+  margin-top: 2px;
+}
+
+.write-us-button {
+  margin-top: 21px;
 }
 
 .partners-parent::after {
