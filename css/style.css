@@ -69,6 +69,10 @@ img {
   height: auto;
 }
 
+.img-map {
+  background-color: var(--grey-base);
+}
+
 .list {
   list-style-type: none;
   padding: 0;
@@ -275,7 +279,7 @@ a {
 
 .order-web {
   width: 200px;
-  transform: translateY(1px);
+  margin-top: 17px;
 }
 
 .send-letter {
@@ -451,17 +455,17 @@ a {
 }
 
 .product-description {
-  height: 231px;
+  height: 205px;
   width: 360px;
   background-color: var(--grey-base);
   transform: translateY(-238px);
   text-align: center;
-  padding-top: 11px;
+  padding-top: 26px;
   display: none;
 }
 
 .description {
-  margin-top: -5px;
+  margin-top: 12px;
   color: #666;
 }
 
@@ -503,7 +507,8 @@ a {
   line-height: 36px;
 }
 
-.sort-name {
+.sort-name,
+.product-description .low-headline {
   font-size: 18px;
   line-height: 30px;
 }
@@ -1045,7 +1050,7 @@ a {
   opacity: 1;
 }
 
-.social > li:hover {
+.social a:hover {
   background-color: var(--red-hover);
 }
 
