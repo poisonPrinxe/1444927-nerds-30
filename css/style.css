@@ -494,6 +494,11 @@ a {
   line-height: 18px;
 }
 
+.percent-sign {
+  font-size: 26px;
+  line-height: 40px;
+}
+
 /* Font weights */
 
 .nav,
@@ -597,6 +602,11 @@ a {
 .stats-list {
   display: flex;
   justify-content: space-between;
+}
+
+.stats-list h4 {
+  display: flex;
+  align-items: flex-start;
 }
 
 .social {
@@ -831,15 +841,15 @@ a {
 }
 
 .stats-list > li:not(:last-child) {
-  margin-right: 8px;
+  margin-right: 22px;
 }
 
 .stats-list .sixteen-eighteen {
-  margin-top: 22px;
+  margin-top: 21px;
 }
 
 .partners {
-  margin-top: 87px;
+  margin-top: 88px;
   margin-left: 32px;
 }
 
