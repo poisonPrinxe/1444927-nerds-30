@@ -596,7 +596,7 @@ a {
 
 .stats-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .social {
@@ -816,19 +816,22 @@ a {
 }
 
 .logo-colours {
-  transform: translateX(27px) translateY(-34px);
+  margin-left: 27px;
+  margin-top: -34px;
 }
 
 .stats {
-  transform: translateY(-20px) translateX(43px);
+  margin-top: 30px;
+  margin-left: 44px;
 }
 
 .stats-list {
-  transform: translateY(3px) translateX(27px);
+  margin-top: 39px;
+  margin-left: 27px;
 }
 
-.stats-list > li:last-child {
-  transform: translateX(3px);
+.stats-list > li:not(:last-child) {
+  margin-right: 8px;
 }
 
 .stats-list .sixteen-eighteen {
@@ -836,7 +839,7 @@ a {
 }
 
 .partners {
-  margin-top: 90px;
+  margin-top: 87px;
   margin-left: 32px;
 }
 
@@ -1047,3 +1050,9 @@ a {
 .textarea:hover {
   border: 2px solid #b4b9bb;
 }
+
+/* Debug */
+
+/*.introduction {
+  border-right: 5px solid var(--red-rest);
+}*/
