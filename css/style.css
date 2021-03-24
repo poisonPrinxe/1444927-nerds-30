@@ -70,7 +70,9 @@ img {
 }
 
 .img-map {
-  background-color: var(--grey-base);
+  width: 100%;
+  height: 416px;
+  object-fit: cover;
 }
 
 .list {
@@ -763,7 +765,7 @@ a {
   background: #f1f1f1;
   font-family: inherit;
   font-size: inherit;
-  -moz-appearance:textfield;
+  -moz-appearance: textfield;
 }
 
 .bar {
@@ -1011,13 +1013,12 @@ a {
   margin-bottom: -73px;
 }
 
-.marker {
-  margin-left: 734px;
-  transform: translateY(-330px);
+.contacts-box {
+  position: relative;
 }
 
 .footer {
-  margin-top: -145px;
+  margin-top: 52px;
 }
 
 /* Hover */
