@@ -1051,7 +1051,7 @@ a {
   opacity: 1;
 }
 
-.social a:hover {
+.social li:hover {
   background-color: var(--red-hover);
 }
 
