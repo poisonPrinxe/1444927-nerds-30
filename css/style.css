@@ -76,12 +76,14 @@ img {
 
 .container {
   margin: 0 auto;
+  padding: 0 20px;
   width: 1160px;
 }
 
 .contacts-where {
   margin-top: 30px;
   position: relative;
+  overflow: hidden;
 }
 
 .contacts-box {
@@ -173,16 +175,12 @@ a {
   opacity: 0.2;
 }
 
-.map-parent {
-  overflow: hidden;
-}
-
 .img-map {
   position: absolute;
   left: 50%;
   top: 0;
   transform: translateX(-50%);
-  object-fit: cover;
+  max-width: none;
 }
 
 /* Buttons */
@@ -314,7 +312,7 @@ a {
   position: relative;    
   z-index: 1;
   width: 219px;
-  height: 216px;
+  height: 212px;
   padding: 49px 50px 47px;
   background-color: #ffffff;
   display: flex;
@@ -903,8 +901,6 @@ a {
   margin-top: 37px;
 }
 
-
-
 .our-friendship {
   margin-left: 13px;
   transform: translateY(-13px);
@@ -976,6 +972,15 @@ a {
 .paginator {
   margin-top: 71px;
   margin-bottom: -73px;
+}
+
+.marker {
+  margin-left: 734px;
+  transform: translateY(-330px);
+}
+
+.footer {
+  margin-top: -145px;
 }
 
 /* Hover */
