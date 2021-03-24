@@ -749,7 +749,6 @@ a {
 
 .price-controls label {
   text-transform: uppercase;
-  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
 }
 
@@ -764,6 +763,7 @@ a {
   background: #f1f1f1;
   font-family: inherit;
   font-size: inherit;
+  -moz-appearance:textfield;
 }
 
 .bar {
