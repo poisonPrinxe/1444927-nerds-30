@@ -219,6 +219,10 @@ a {
   background-color: white;
 }
 
+.sort button {
+  cursor: pointer;
+}
+
 .down::before {
   content: "";
   position: absolute;
@@ -244,6 +248,7 @@ a {
   background-color: white;
   position: relative;
   display: block;
+  cursor: pointer;
 }
 
 .slider-buttons .selected::after {
@@ -1027,4 +1032,9 @@ a {
 
 .close-popup:hover {
   opacity: 1;
+}
+
+.popup-label + input:hover,
+.textarea:hover {
+  border: 2px solid #b4b9bb;
 }
