@@ -178,6 +178,7 @@ a {
   left: 50%;
   top: 0;
   transform: translateX(-50%);
+  object-fit: cover;
 }
 
 /* Buttons */
@@ -267,6 +268,10 @@ a {
   transform: translateY(1px);
 }
 
+.send-letter {
+  width: 259px;
+}
+
 /* Misc */
 
 .header,
@@ -314,13 +319,33 @@ a {
 
 .popup {
   z-index: 2;
-  width: 960px;
-  height: 590px;
+  width: 760px;
+  height: 490px;
   background-color: white;
   box-shadow: 0 5px 20px black;
-  margin-top: -705px;
-  margin-left: 50%;
-  transform: translateX(-480px);
+  position: fixed;
+  bottom: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 63px 100px 37px;
+}
+
+.textarea {
+  height: 86px;
+  width: 728px;
+  margin-bottom: 38px;
+}
+
+.popup-label + input {
+  width: 328px;
+  margin-bottom: 25px;
+}
+
+.popup-label + input,
+.textarea {
+  border: 2px solid #d7dcde;
+  border-radius: 3px;
+  padding: 16px;
 }
 
 .page-title {
@@ -479,7 +504,8 @@ a {
 .low-headline,
 .stats,
 .friends,
-.sort-name {
+.sort-name,
+.popup-label {
   font-weight: 700;
 }
 
@@ -599,6 +625,21 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.popup-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 9px;
+}
+
+.label-name + input {
+  grid-row: 2 / 3;
+}
+
+.textarea {
+  grid-column: 1 / -1;
 }
 
 /* Double slider */
@@ -848,6 +889,17 @@ a {
   transform: translateY(25px);
 }
 
+.close-popup {
+  float: right;
+  transform: translatey(-30px);
+}
+
+.popup-form {
+  margin-top: 37px;
+}
+
+
+
 .our-friendship {
   margin-left: 13px;
   transform: translateY(-13px);
@@ -970,5 +1022,9 @@ a {
 
 .grid-filter label::before:hover,
 .special-filter label::before:hover {
+  opacity: 1;
+}
+
+.close-popup:hover {
   opacity: 1;
 }
