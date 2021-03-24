@@ -173,6 +173,10 @@ a {
   opacity: 0.2;
 }
 
+.map-parent {
+  overflow: hidden;
+}
+
 .img-map {
   position: absolute;
   left: 50%;
@@ -217,10 +221,6 @@ a {
 
 .normal-button {
   background-color: white;
-}
-
-.sort button {
-  cursor: pointer;
 }
 
 .down::before {
@@ -491,7 +491,7 @@ a {
   line-height: 30px;
 }
 
-.sort > button {
+.sort > a {
   font-size: 14px;
   line-height: 18px;
 }
@@ -952,17 +952,21 @@ a {
   margin-right: 260px;
 }
 
-.sort > button:not(.up):not(.down) {
-  transform: translateY(1px);
-  margin-right: 14px;
+.sort {
+  transform: translateX(6px);
+}
+
+.sort > a:not(.up):not(.down) {
+  transform: translateY(25px);
+  margin-right: 25px;
 }
 
 .down {
-  transform: translateX(22px) translateY(-6px);
+  transform: translateX(24px) translateY(27px);
 }
 
 .up {
-  transform: translateX(38px) translateY(-9px);
+  transform: translateX(52px) translateY(23px);
 }
 
 .product-examples {
@@ -1008,7 +1012,7 @@ a {
   background-color: var(--red-hover);
 }
 
-.sort > button:not(.selected):hover {
+.sort > a:not(.selected):hover {
   opacity: 0.6;
 }
 
