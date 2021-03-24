@@ -140,7 +140,7 @@ a {
   margin: -1px;
 }
 
-.grid-filter label::before {
+.grid-filter input:not(:checked) + label::before {
   content: "";
   position: absolute;
   width: 17px;
@@ -150,15 +150,15 @@ a {
   transform: translateX(-35px);
 }
 
-.grid-filter input:checked + label::after {
+.grid-filter input:checked + label::before {
   content: "";
   position: absolute;
-  margin-left: -118px;
-  margin-top: 8px;
   width: 9px;
   height: 9px;
   border-radius: 50%;
   background-color: rgba(77, 77, 77, 0.4);
+  box-shadow: 0 0 0 4px white, 0 0 0 8px rgba(77, 77, 77, 0.4);
+  transform: translateX(-27px) translateY(8px);
 }
 
 .special-filter input:not(:checked) + label::before {
