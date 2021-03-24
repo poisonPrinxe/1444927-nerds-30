@@ -153,11 +153,12 @@ a {
 .grid-filter input:checked + label::after {
   content: "";
   position: absolute;
+  margin-left: -118px;
+  margin-top: 8px;
   width: 9px;
   height: 9px;
   border-radius: 50%;
   background-color: rgba(77, 77, 77, 0.4);
-  transform: translateX(-118px) translateY(8px);
 }
 
 .special-filter input:not(:checked) + label::before {
@@ -925,7 +926,7 @@ a {
 
 .close-popup {
   float: right;
-  transform: translatey(-30px);
+  transform: translateY(-30px);
 }
 
 .popup-form {
@@ -1065,8 +1066,8 @@ a {
   background-color: var(--grey-hover);
 }
 
-.grid-filter label::before:hover,
-.special-filter label::before:hover {
+.grid-filter label:hover,
+.special-filter label:hover {
   opacity: 1;
 }
 
